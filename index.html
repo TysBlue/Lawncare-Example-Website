@@ -29,52 +29,137 @@
     </div>
   </header>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-bg"></div>
-    <div class="hero-content fade-up">
-      <div class="trust-bar">
-        <span class="stars">★★★★★</span>
-        <span class="trust-text">4.9 on Google (1,240+ Reviews)</span>
-        <span class="divider">|</span>
-        <span class="trust-text">🏆 Top Choice Award 2026</span>
-        <span class="divider">|</span>
-        <span class="trust-text">✅ 100% Satisfaction Guaranteed</span>
+  <!-- UNDERGROUND HERO -->
+  <section class="ug-section" id="ug-section">
+    <div class="ug-sticky" id="ug-sticky">
+
+      <!-- SKY -->
+      <div class="ug-layer" id="ug-sky">
+        <div class="sun" id="sun">
+          <div class="sun-rays"></div>
+        </div>
+        <div class="cloud" id="cloud1"></div>
+        <div class="cloud" id="cloud2"></div>
+        <div class="cloud" id="cloud3"></div>
+        <div class="birds">
+          <span class="bird"></span><span class="bird"></span><span class="bird"></span>
+        </div>
       </div>
-      <h1 class="hero-title">Canada's Most Trusted<br/><span class="highlight">Lawn Care Service</span></h1>
-      <p class="hero-sub">Professional yard care that makes your neighbours jealous. Fully insured, locally operated, results guaranteed.</p>
-      <div class="hero-offer">
-        <span class="offer-badge">LIMITED TIME</span>
-        <span class="offer-text">75% Off Your First Treatment — Ends May 31</span>
+
+      <!-- UNDERGROUND LAYERS -->
+      <div class="ug-layer" id="ug-ground">
+        <div class="soil-topsoil"></div>
+        <div class="soil-clay"></div>
+        <div class="soil-deep"></div>
+        <div class="soil-bedrock"></div>
+        <!-- Rocks -->
+        <div class="rock" style="left:12%;top:62%;width:38px;height:26px;"></div>
+        <div class="rock" style="left:55%;top:75%;width:52px;height:34px;"></div>
+        <div class="rock" style="left:78%;top:58%;width:28px;height:20px;"></div>
+        <div class="rock" style="left:33%;top:85%;width:44px;height:30px;"></div>
+        <div class="rock dark" style="left:65%;top:90%;width:60px;height:38px;"></div>
+        <!-- Pebbles -->
+        <div class="pebble" style="left:20%;top:64%"></div>
+        <div class="pebble" style="left:44%;top:70%"></div>
+        <div class="pebble" style="left:70%;top:68%"></div>
+        <div class="pebble" style="left:85%;top:80%"></div>
+        <div class="pebble" style="left:8%;top:82%"></div>
+        <!-- Worms -->
+        <div class="worm" id="worm1" style="left:25%;top:63%"></div>
+        <div class="worm" id="worm2" style="left:68%;top:72%;transform:scaleX(-1) rotate(30deg)"></div>
+        <!-- Soil particles -->
+        <div class="particle" style="left:15%;top:56%"></div>
+        <div class="particle" style="left:38%;top:61%"></div>
+        <div class="particle" style="left:60%;top:59%"></div>
+        <div class="particle" style="left:82%;top:64%"></div>
+        <div class="particle" style="left:5%;top:70%"></div>
+        <div class="particle" style="left:92%;top:72%"></div>
       </div>
-      <div class="hero-ctas">
-        <a href="#quote" class="btn btn-primary pulse">Get My Free Quote</a>
-        <a href="tel:18005551234" class="btn btn-secondary">Call Now: 1-800-555-1234</a>
+
+      <!-- ROOTS SVG -->
+      <div class="ug-layer" id="ug-roots">
+        <svg class="roots-svg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <g stroke="#5a3a1a" fill="none" stroke-linecap="round">
+            <path d="M200,0 C210,80 180,140 160,200 C140,260 100,300 80,380 C60,440 90,500 70,560" stroke-width="4" opacity=".7"/>
+            <path d="M160,200 C130,230 90,240 60,270" stroke-width="2.5" opacity=".6"/>
+            <path d="M80,380 C50,390 20,410 10,450" stroke-width="2" opacity=".5"/>
+            <path d="M80,380 C110,400 130,430 120,470" stroke-width="2" opacity=".5"/>
+            <path d="M400,0 C390,90 420,160 440,230 C460,300 430,360 450,430 C470,490 500,530 480,600" stroke-width="5" opacity=".75"/>
+            <path d="M440,230 C470,250 510,245 540,265" stroke-width="3" opacity=".6"/>
+            <path d="M450,430 C420,450 390,470 370,510" stroke-width="2.5" opacity=".55"/>
+            <path d="M450,430 C480,460 510,480 520,520" stroke-width="2.5" opacity=".55"/>
+            <path d="M480,600 C460,640 430,670 420,710" stroke-width="2" opacity=".4"/>
+            <path d="M720,0 C710,100 740,180 720,260 C700,340 670,400 680,480 C690,540 720,580 700,650" stroke-width="6" opacity=".8"/>
+            <path d="M720,260 C750,280 790,275 820,295" stroke-width="3.5" opacity=".65"/>
+            <path d="M720,260 C690,290 650,300 630,340" stroke-width="3" opacity=".6"/>
+            <path d="M680,480 C650,500 610,520 590,560" stroke-width="2.5" opacity=".5"/>
+            <path d="M680,480 C710,510 740,540 730,580" stroke-width="2.5" opacity=".5"/>
+            <path d="M700,650 C680,690 660,720 650,760" stroke-width="2" opacity=".4"/>
+            <path d="M1000,0 C1010,85 980,155 990,225 C1000,295 1030,345 1020,415 C1010,475 980,510 990,575" stroke-width="4.5" opacity=".72"/>
+            <path d="M990,225 C1020,245 1060,240 1090,258" stroke-width="3" opacity=".6"/>
+            <path d="M1020,415 C990,435 960,455 940,495" stroke-width="2.5" opacity=".52"/>
+            <path d="M1020,415 C1050,445 1080,460 1090,500" stroke-width="2.5" opacity=".52"/>
+            <path d="M1250,0 C1240,80 1270,150 1260,220 C1250,290 1220,340 1230,410 C1240,470 1270,510 1260,575" stroke-width="4" opacity=".68"/>
+            <path d="M1260,220 C1290,242 1330,238 1360,258" stroke-width="2.5" opacity=".55"/>
+            <path d="M1230,410 C1200,430 1170,455 1155,490" stroke-width="2" opacity=".48"/>
+            <path d="M1230,410 C1260,435 1290,455 1295,495" stroke-width="2" opacity=".48"/>
+          </g>
+        </svg>
       </div>
-      <div class="hero-stats">
-        <div class="stat"><span class="stat-num">12,000+</span><span class="stat-label">Happy Customers</span></div>
-        <div class="stat"><span class="stat-num">25 Years</span><span class="stat-label">In Business</span></div>
-        <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Guaranteed Results</span></div>
+
+      <!-- GRASS SURFACE -->
+      <div class="ug-layer" id="ug-grass">
+        <div class="grass-ground"></div>
+        <div class="grass-blades" id="grass-blades"></div>
+        <div class="grass-shadow"></div>
       </div>
-    </div>
-    <div class="hero-image fade-in">
-      <div class="lawn-visual">
-        <div class="lawn-card">
-          <div class="lawn-before-after">
-            <div class="before">
-              <span class="ba-label">Before</span>
-              <div class="lawn-img lawn-img-before"></div>
-            </div>
-            <div class="after">
-              <span class="ba-label">After</span>
-              <div class="lawn-img lawn-img-after"></div>
-            </div>
+
+      <!-- HERO CONTENT -->
+      <div class="ug-layer" id="ug-content">
+        <div class="ug-hero-content">
+          <div class="trust-bar">
+            <span class="stars">★★★★★</span>
+            <span class="trust-text">4.9 on Google (1,240+ Reviews)</span>
+            <span class="divider">|</span>
+            <span class="trust-text">🏆 Top Choice Award 2026</span>
+            <span class="divider">|</span>
+            <span class="trust-text">✅ 100% Satisfaction Guaranteed</span>
           </div>
-          <div class="lawn-card-footer">
-            <span>✨ Results in as little as 2 weeks</span>
+          <h1 class="hero-title">Canada's Most Trusted<br/><span class="highlight">Lawn Care Service</span></h1>
+          <p class="hero-sub">Professional yard care that makes your neighbours jealous. Fully insured, locally operated, results guaranteed.</p>
+          <div class="hero-offer">
+            <span class="offer-badge">LIMITED TIME</span>
+            <span class="offer-text">75% Off Your First Treatment — Ends May 31</span>
+          </div>
+          <div class="hero-ctas">
+            <a href="#quote" class="btn btn-primary pulse">Get My Free Quote</a>
+            <a href="tel:18005551234" class="btn btn-secondary">Call Now: 1-800-555-1234</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat"><span class="stat-num">12,000+</span><span class="stat-label">Happy Customers</span></div>
+            <div class="stat"><span class="stat-num">25 Years</span><span class="stat-label">In Business</span></div>
+            <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Guaranteed Results</span></div>
           </div>
         </div>
       </div>
+
+      <!-- UNDERGROUND LABEL -->
+      <div class="ug-label" id="ug-label">
+        <span>🌱 Healthy roots = healthy lawn</span>
+      </div>
+
+      <!-- SCROLL HINT -->
+      <div class="scroll-hint" id="scroll-hint">
+        <span>Scroll to explore</span>
+        <div class="scroll-arrow"></div>
+      </div>
+
+      <!-- DEPTH INDICATOR -->
+      <div class="depth-bar" id="depth-bar">
+        <div class="depth-fill" id="depth-fill"></div>
+        <span class="depth-label" id="depth-label">Surface</span>
+      </div>
+
     </div>
   </section>
 
